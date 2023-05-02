@@ -51,7 +51,7 @@
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 let firstName = prompt('First Name')
 let middleName = prompt('Middle Name')
-let age = prompt('Age');
+let age = +prompt('Age');
 
 console.log(firstName )
 console.log(middleName)
